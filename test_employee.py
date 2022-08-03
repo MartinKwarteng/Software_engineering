@@ -11,8 +11,8 @@ class TestEmployee(unittest.TestCase):
         self.assertEqual(emp1.email, 'Martin.Tee@gmail.com')
         self.assertEqual(emp2.email, 'Sir.Cool@gmail.com')
 
-        emp1.first = 'Mathew'
-        emp2.last = 'Sir'
+        emp1.first = 'Mathew' # various edge cases when the first name is changed 
+        emp2.last = 'Sir' 
 
         self.assertEqual(emp1.email, 'Mathew.Tee@gmail.com')
         self.assertEqual(emp2.email, 'Sir.Sir@gmail.com')
