@@ -28,7 +28,7 @@ jobs:
       name: Build & push Docker image
       with:
         tags: v1, latest
-        image: joetib/webapp
+        image: MartinKwarteng/Software_engineering
         dockerfile: Dockerfile
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
