@@ -25,6 +25,7 @@ dependencies:
     sdk: flutter
   provider: ^6.0.1
   flutter_lorem: ^2.0.0
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_test:
